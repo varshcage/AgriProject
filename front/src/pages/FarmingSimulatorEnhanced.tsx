@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
-import { farmingSimulatorApi, auth } from '../utils/api';
+import { farmingSimulatorApi } from '../utils/api';
 import Layout from '../components/Layout';
 import { 
-  Gamepad2, Sprout, Droplets, Sun, TrendingUp, Play, RotateCcw,
+  Gamepad2, Sprout, Droplets, TrendingUp, Play, RotateCcw,
   Thermometer, CloudRain, Trophy, Beaker, Zap, Award
 } from 'lucide-react';
 
