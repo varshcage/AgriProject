@@ -9,7 +9,7 @@ import {
 interface FarmingSimulatorEnhancedProps {
   onLogout: () => void;
 }
-
+ 
 export default function FarmingSimulatorEnhanced({ onLogout }: FarmingSimulatorEnhancedProps) {
   const [field, setField] = useState({
     nitrogen: 50,
